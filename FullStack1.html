@@ -1,0 +1,126 @@
+Task-1
+
+1. Basic Web Page: Create a basic web page with a header, footer, and main content area.
+Include different types of HTML elements such as headings, paragraphs, lists, images,
+and links.
+
+
+
+<!DOCTYPE html>
+<html>
+<title> MY SHOP </title>
+<body>
+
+<h1>Rose Beauti care & Fashion Designers</h1>
+<img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRz6WbrwAbYYY8hEIWjso2zEGcaj6lgRorRrMDTzzlpyYYW1Sv87xLk5G5Ti-CqGleFTIoSr_WT2z9Mwxo" alt="Logo" width="100" height="150">
+<br></br>
+<a href="https://www.bharatibiz.com/en/ishwarya-beauty-parlour_2L-099650-96562">Visit RoseBeautiCare.com</a>
+<p>Satification 1st Your 1st Priority.</p>
+<h2>We Provide </h2>
+
+<ol>
+  <li>Hair Styles & Hair Cut</li>
+  <li>Bridal Bakeup & Co-Bride</li>
+  <li>Eyebrow,Manicure,Pedicure</li>
+  <li>All Blouse Works</li>
+  <li>Chudidhar</li>
+  <li>Aaari Work</li>
+</ol> 
+
+</body>
+</html>
+
+Task-2
+
+2.yout Exercise: Create a web page with a specific layout using CSS. For example, a
+three-column layout with a header and footer, or a responsive grid layout.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My WebPage</title>
+    <style>
+        header {
+            background-color: white;
+            height: 100px;
+            width:
+        }
+        footer {
+            background-color: white
+            height: 100px;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            height:100px
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1 style="background-color:white"> Rose Beauti Care & Fashion Designers</h1>
+       
+    </header>
+    <div class="row">
+        <div class="column">
+            Serive
+        </div>
+        <div class="column">
+            Products
+        </div>
+        <div class="column">
+            About Us
+        </div>
+    </div>
+    <br></br
+    <footer>
+        Thank You 
+    </footer>
+</body>
+</html>
+
+Task -3
+
+3.Form Creation: Build a web form that includes different types of input fields (text,
+password, checkbox, radio, dropdown, etc.) and validation rules
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rose Beauti Care</title>
+    <h1> Rose Beauti Care </h1>
+    <style>
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            font-weight: bold;
+            width: 150px;
+        }
+        input, textarea {
+            width: 300px;
+        }
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="/contact" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea>
+        <br>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
